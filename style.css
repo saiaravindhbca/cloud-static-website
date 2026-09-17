@@ -1,13 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 40px;
     background: #f2f5f8;
+    margin: 0;
+    padding: 30px 15px;
+    text-align: center;
+    color: #222;
 }
 
 h1 {
-    margin-bottom: 30px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
 }
 
 h2 {
@@ -15,14 +19,31 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 ul {
     display: inline-block;
     text-align: left;
+    background: white;
+    padding: 20px 40px;
+    border-radius: 12px;
 }
 
 li {
-    margin: 8px;
+    margin: 10px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 20px;
 }
