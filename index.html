@@ -1,54 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cloud-Based Static Website</title>
+    <title>Sai Cake Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>☁️ Cloud-Based Static Website</h1>
+    <h1>🍰 My Cake Shop</h1>
 
-    <h2>About the Project</h2>
-    <p>
-        This project demonstrates how a static website
-        can be deployed on a cloud hosting platform
-        and accessed through a public URL.
-    </p>
+    <p>Welcome! Fresh and tasty cakes for every occasion.</p>
 
-    <h2>Expected Features</h2>
+    <h2>Our Cakes</h2>
 
-    <ul>
-        <li>Create a basic website</li>
-        <li>Configure cloud hosting</li>
-        <li>Upload website files</li>
-        <li>Enable public access</li>
-        <li>Test the public website URL</li>
-    </ul>
+    <div>
+        <h3>🍫 Kitkat Chocolate Cake</h3>
+        <p>₹450</p>
+    </div>
 
-    <h2>Technologies Used</h2>
+    <div>
+        <h3>🍓 Strawberry Cake</h3>
+        <p>₹500</p>
+    </div>
 
-    <p>HTML | CSS | JavaScript | GitHub Pages</p>
+    <div>
+        <h3>🍰 Black Forest Cake</h3>
+        <p>₹550</p>
+    </div>
 
-    <h2>Cloud Deployment</h2>
+    <h2>Contact</h2>
 
-    <p>
-        The website files are stored in a GitHub repository
-        and deployed using GitHub Pages.
-    </p>
+    <p>📞 98765 43210</p>
+    <p>📧 cake@gmail.com</p>
 
-    <h2>Project Status</h2>
-
-    <p>✅ Website Successfully Deployed</p>
-
-    <button onclick="showMessage()">Test Website</button>
+    <button onclick="orderCake()">Order Cake</button>
 
     <p id="message"></p>
 
     <script>
-        function showMessage() {
+        function orderCake() {
             document.getElementById("message").innerHTML =
-                "🎉 Cloud website is working successfully!";
+                "Thank you! Please contact us to order.";
         }
     </script>
 
