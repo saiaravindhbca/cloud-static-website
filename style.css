@@ -1,11 +1,13 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     text-align: center;
-    margin: 50px;
+    margin: 0;
+    padding: 40px;
+    background: #f2f5f8;
 }
 
 h1 {
-    font-size: 35px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -14,4 +16,13 @@ h2 {
 
 p {
     font-size: 18px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    margin: 8px;
 }
